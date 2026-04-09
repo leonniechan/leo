@@ -1,0 +1,68 @@
+<html>
+<head>
+    <title>Pendaftaran</title>
+    <link rel="stylesheet" href="bahanujian.css">
+</head>
+<body>
+
+<div class="kotak">
+   <div id="hasil">
+        Data anda harus ditampilkan di sini...
+    </div>
+    <h2>Forum pendaftaran</h2>
+
+    <label>Nama lengkap:</label>
+    <input type="text" id="nama"placeholder="contoh:Siti aisyah">
+
+    <label>Kelas:</label>
+    <input type="text" id="kelas"placeholder="contoh:XII IPA3 / 8A / 3SD">
+
+  <label>Jenis Kelamin:</label>
+   <div class="kotak3">
+            <label>
+                <input type="radio" name="gender" value="Laki-laki"> Laki-laki
+            </label>
+            <label>
+                <input type="radio" name="gender" value="Perempuan"> Perempuan
+            </label>
+			</div><div>
+
+  <div>  <label>ekstrakurikuler yang diminati:</label>
+    <div class="kotak3">
+        <label><input type="checkbox" name="ekskul" value="Basket"> Basket</label>
+		
+        <label><input type="checkbox" name="ekskul" value="Futsal"> Futsal</label>
+		
+        <label><input type="checkbox" name="ekskul" value="Paduan Suara"> Paduan suara</label>
+    </div>
+
+    <label>Pilih jadwal belajar (wajib):</label>
+    <label>
+	<div class="kotak4">
+	<label>
+	<input type="radio" name="hari" value="Pagi"> Pagi (07.00-12.00)
+	</label>
+	
+    <label>
+	<input type="radio" name="hari" value="Siang"> Siang (12.30-17.00)
+	</label>
+	
+    <label>
+	<input type="radio" name="hari" value="Sore"> Sore (17.30-20.30)
+	</label>
+	
+    <label>
+	<input type="radio" name="hari" value="Campuran"> Campuran (fleksibel)
+	</label>
+	<br>
+	</div>
+<button type="button" onclick="tampil()">Daftar sekarang</button>
+    <button type="button" onclick="resetForm()">Reset Form</button>
+
+
+</div>
+</form>
+
+<script src="bahanujian.js"></script>
+</body>
+</html>
